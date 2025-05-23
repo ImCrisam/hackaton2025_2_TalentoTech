@@ -212,7 +212,8 @@
         <!--army icon-->
         <div class="float_btn">
         <div class="army_icon">
-        <img src="images/icon2023.png">
+        <img  src="images/icon2023.png" id="boton-chat" alt="Botón de Chat" style="position: fixed; bottom: 10px; left: 10px; cursor: pointer; z-index: 1000;">
+
         </div>
         </div>
         <!-- Swiper-->
@@ -1412,6 +1413,23 @@
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <!-- coded by Himic-->
+     <div id="chatbox" style="display: none; position: fixed; bottom: 80px; left: 10px; width: 300px; height: 400px; background: white; border: 2px solid #333; z-index: 1000; box-shadow: 0 0 10px rgba(0,0,0,0.3); border-radius: 10px; overflow: hidden;">
+  <div style="background: #2c3e50; color: white; padding: 10px;">Chat Secretaría</div>
+  <div style="padding: 10px; height: 300px; overflow-y: auto;">Bienvenido, ¿cómo podemos ayudarte?</div>
+  <input type="text" placeholder="Escribe tu mensaje..." style="width: 100%; padding: 10px; border: none; border-top: 1px solid #ccc;">
+</div>
+<script>
+  const botonChat = document.getElementById('boton-chat');
+  const chatbox = document.getElementById('chatbox');
+
+  botonChat.addEventListener('click', () => {
+    if (chatbox.style.display === "none") {
+      chatbox.style.display = "block";
+    } else {
+      chatbox.style.display = "none";
+    }
+  });
+</script>
   </body>
 <script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl508280'},{'dcenter':'p3'},{'cp_id':'10302067'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='../img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'></script>
 <!-- Mirrored from www.colmilgeneralsantander.edu.co/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 May 2025 19:19:35 GMT -->
