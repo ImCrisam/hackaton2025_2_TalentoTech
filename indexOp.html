@@ -227,7 +227,7 @@
                             </button>
                             <!-- Logo del colegio -->
                             <div class="rd-navbar-brand">
-                                <a class="brand" href="index-2.html">
+                                <a class="brand" href="/indexOp.html">
                                 <img style="width: 100px; margin-left: 40%;" src="images/favicon.ico" alt="Logo Colegio Militar General Santander">
                                 </a>
                             </div>
@@ -789,9 +789,9 @@
             <img src="/images/logo1.png" alt="Logo del asistente" style="width: 70px; margin-bottom: 10px;">
             <h2 style="color: #0066ff; font-size: 16px; margin: 5px 0;">Asistente Mila AI</h2>
             <p style="font-size: 13px; color: #333; margin: 10px 0 20px;">
-            Using this software, you can ask questions and receive articles using artificial intelligence assistant.
+                ¡Hola! Soy Mila, tu asistente virtual. Estoy aquí para ayudarte con información sobre el Colegio Militar General Santander.
             </p>
-            <img src="/images/icon2023.png" alt="Avatar del asistente" style="width: 100px; margin-bottom: 20px;">
+            <img src="/images/AnimacionMila.gif" alt="Avatar del asistente" style="width: 100px; margin-bottom: 20px;">
             <button id="continuar-btn"
                     style="background: #34B70D; color: white; border: none;
                         padding: 10px 20px; border-radius: 20px;
@@ -801,11 +801,11 @@
         </div>
 
         <!-- Chat funcional -->
-        <div id="contenido-chat" style="display: none; flex: 1; flex-direction: column;">
+        <div id="contenido-chat" style="display: flex; flex: 1; flex-direction: column;">
 
             <!-- Encabezado -->
             <div style="background: #34B70D; color: white; padding: 10px;
-                        display: flex; justify-content: space-between; align-items: center;">
+                        display: flex; justify-content: space-between; align-items: center; flex-shrink: 0;">
                 <span>🤖 Mila AI</span>
                 <button id="cerrar-chat"
                         style="background: transparent; border: none;
@@ -817,11 +817,17 @@
             <!-- Preguntas sugeridas -->
             <div id="preguntas-sugeridas" style="padding: 10px; display: flex; flex-direction: column; gap: 8px;">
                 <button class="pregunta-btn" style="padding: 6px 10px; background: #f1f1f1;
-                            border: none; border-radius: 8px; cursor: pointer;">📘 ¿Cómo me inscribo?</button>
+                            border: none; border-radius: 8px; cursor: pointer;">¿Cómo me inscribo?</button>
                 <button class="pregunta-btn" style="padding: 6px 10px; background: #f1f1f1;
-                            border: none; border-radius: 8px; cursor: pointer;">🧾 Requisitos de inscripción</button>
+                            border: none; border-radius: 8px; cursor: pointer;">Requisitos de inscripcion</button>
                 <button class="pregunta-btn" style="padding: 6px 10px; background: #f1f1f1;
                             border: none; border-radius: 8px; cursor: pointer;">PQR</button>
+                <button class="pregunta-btn" style="padding: 6px 10px; background: #f1f1f1;
+                            border: none; border-radius: 8px; cursor: pointer;">Cual es la mision del colegio militar general santander</button>
+                <button class="pregunta-btn" style="padding: 6px 10px; background: #f1f1f1;
+                            border: none; border-radius: 8px; cursor: pointer;">Cuales son los valores institucionales del colegio</button>
+                <button class="pregunta-btn" style="padding: 6px 10px; background: #f1f1f1;
+                            border: none; border-radius: 8px; cursor: pointer;">Cual es el lema del colegio militar general santander</button>
             </div>
 
             <!-- Mensajes -->
@@ -831,7 +837,7 @@
             </div>
 
             <!-- Input -->
-            <div style="display: flex; border-top: 1px solid #ccc;">
+            <div style="display: flex; border-top: 1px solid #ccc; flex-shrink: 0;">
                 <input id="input-mensaje" type="text" placeholder="Escribe tu mensaje..."
                         style="flex: 1; padding: 10px; border: none; font-family: sans-serif;">
                 <button id="enviar-mensaje"
@@ -856,25 +862,39 @@
         const chatMensajes    = document.getElementById('chat-mensajes');
         const preguntasSug    = document.getElementById('preguntas-sugeridas');
 
-        // Botón "Continuar" en pantalla de bienvenida
+        // Audios pregrabados
+        const audioInicio    = new Audio('/mp3/hola.opus');
+        const audioRespuesta = new Audio('/mp3/requisitos_ins.opus');
+        const audioCerrar    = new Audio('/mp3/despedida.opus');
+
+        // Preguntas y respuestas
+        const baseConocimiento = {
+            "requisitos de inscripcion": "1. Compra del formulario de inscripción. 2. Diligenciar formato de referencia del colegio de procedencia. 3. Solicitar el listado completo de documentos en la secretaría.",
+            "Cual es la mision del colegio militar general santander": "El Colegio Militar General Santander es una institución con énfasis militar...",
+            "Que vision tiene la institucion para el año 2024": "Ser reconocida por su alto nivel de formación...",
+            "Cuales son los valores institucionales del colegio": "Confianza, Disciplina y Aprendizaje.",
+            "Cual es el lema del colegio militar general santander": "\"Patria, Superación y Orden\".",
+            "Que grados ofrece el colegio": "Preescolar, Primaria, Secundaria y Media Vocacional."
+            // Agrega más entradas normalizadas aquí
+        };
+
+        // Mostrar pantalla principal
         continuarBtn.addEventListener('click', () => {
             pantallaBienv.style.display = 'none';
             contenidoChat.style.display = 'flex';
         });
 
-        // Mostrar caja de bienvenida
         botonChat.addEventListener('click', () => {
-            chatbox.style.display    = 'flex';
-            botonChat.style.display  = 'none';
+            chatbox.style.display = 'flex';
+            botonChat.style.display = 'none';
+            audioInicio.play();
         });
 
-        // Cierra chat desde pantalla de bienvenida
         cerrarChatBienv.addEventListener('click', () => {
             chatbox.style.display = 'none';
             botonChat.style.display = 'block';
         });
 
-        // Cierra chat desde pantalla de conversación
         cerrarChat.addEventListener('click', () => {
             chatbox.style.display = 'none';
             botonChat.style.display = 'block';
@@ -882,35 +902,50 @@
             contenidoChat.style.display = 'none';
             chatMensajes.innerHTML = '';
             preguntasSug.style.display = 'flex';
+            audioCerrar.play();
         });
 
-        // Agregar mensaje al chat
         function agregarMensaje(txt, tipo='usuario') {
             const d = document.createElement('div');
             d.textContent = txt;
             d.style.marginBottom = '8px';
-            d.style.padding       = '6px 10px';
-            d.style.borderRadius  = '8px';
-            d.style.maxWidth      = '80%';
-            d.style.wordWrap      = 'break-word';
-            d.style.fontFamily    = 'sans-serif';
-            d.style.alignSelf     = tipo === 'usuario' ? 'flex-end' : 'flex-start';
+            d.style.padding = '6px 10px';
+            d.style.borderRadius = '8px';
+            d.style.maxWidth = '80%';
+            d.style.wordWrap = 'break-word';
+            d.style.fontFamily = 'sans-serif';
+            d.style.alignSelf = tipo === 'usuario' ? 'flex-end' : 'flex-start';
             d.style.backgroundColor = tipo === 'usuario' ? '#d1e7dd' : '#f8d7da';
             chatMensajes.appendChild(d);
             chatMensajes.scrollTop = chatMensajes.scrollHeight;
         }
 
-        // Simular respuesta del bot
+        function normalizarTexto(texto) {
+            return texto
+                .toLowerCase()
+                .normalize("NFD")                      // Quitar acentos
+                .replace(/[\u0300-\u036f]/g, "")
+                .replace(/[^\w\s]/gi, "")             // Quitar puntuación/emojis
+                .trim();
+        }
+
         function respuestaBot(mensajeUsuario) {
             setTimeout(() => {
-                agregarMensaje(`Gracias por tu mensaje: "${mensajeUsuario}"`, 'bot');
+                const clave = normalizarTexto(mensajeUsuario);
+                const respuesta = baseConocimiento[clave];
+                const textoRespuesta = respuesta || "Lo siento, no tengo una respuesta para esa pregunta. ¿Podrías reformularla?";
+                agregarMensaje(textoRespuesta, 'bot');
+
+                // Reproducir audio solo si la pregunta es la de requisitos
+                if (clave.includes("requisitos de inscripcion")) {
+                    audioRespuesta.play();
+                }
             }, 800);
         }
 
-        // Envío de mensaje manual
         enviarMensaje.addEventListener('click', () => {
             const msg = inputMensaje.value.trim();
-            if(!msg) return;
+            if (!msg) return;
             agregarMensaje(msg, 'usuario');
             preguntasSug.style.display = 'none';
             respuestaBot(msg);
@@ -918,10 +953,9 @@
         });
 
         inputMensaje.addEventListener('keydown', e => {
-            if(e.key === 'Enter') enviarMensaje.click();
+            if (e.key === 'Enter') enviarMensaje.click();
         });
 
-        // Preguntas sugeridas clickeables
         document.querySelectorAll('.pregunta-btn').forEach(btn => {
             btn.addEventListener('click', () => {
                 const pregunta = btn.textContent;
