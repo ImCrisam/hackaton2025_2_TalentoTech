@@ -1,0 +1,82 @@
+enlaces
+
+{
+  "Inicio": "https://colmilgeneralsantander.edu.co/#home",
+  "Servicios": "https://colmilgeneralsantander.edu.co/#services",
+  "Inscripciones_y_Matriculas": "https://colmilgeneralsantander.edu.co/#inscriptions",
+  "Galeria": "https://colmilgeneralsantander.edu.co/#projects",
+  "Nosotros_Mision_Vision": "https://colmilgeneralsantander.edu.co/#team",
+  "Contacto": "https://colmilgeneralsantander.edu.co/#contacts",
+  "Phidias_Login": "https://colmilgeneralsantander.phidias.co/"
+}
+
+posibles preguntas
+
+{
+  "Mision_Vision_Valores": [
+    "¿Cuál es la misión del Colegio Militar General Santander?",
+    "¿Qué visión tiene la institución para el año 2024?",
+    "¿Cuáles son los valores institucionales del colegio?",
+    "¿Cuál es el lema del Colegio Militar General Santander?",
+    "¿Qué modelo pedagógico sigue la institución?",
+    "¿Qué características tiene la formación disciplinaria ofrecida?",
+    "¿Qué se entiende por responsabilidad social institucional según el colegio?"
+  ],
+  "Admisiones_Inscripciones": [
+    "¿Qué grados ofrece el colegio?",
+    "¿Cuáles son los requisitos de inscripción?",
+    "¿Qué documentos deben entregar los aspirantes al grado 9°?",
+    "¿Cuáles son los exámenes médicos requeridos para la inscripción?",
+    "¿Qué entrevistas se deben realizar como parte del proceso de admisión?",
+    "¿Qué pasos debe seguir una familia interesada en matricular a un estudiante?",
+    "¿Qué es el formato de referencia del colegio de procedencia?",
+    "¿Qué diferencias hay entre los requisitos de ingreso para cadetes nuevos y antiguos?"
+  ],
+  "Academico_Programas": [
+    "¿Qué enfoque tiene el programa de Preescolar?",
+    "¿Cómo se estructuran los años de Primaria?",
+    "¿Qué tipos de programas ofrece el bachillerato?",
+    "¿Cuál es el papel del SENA en la formación académica del colegio?",
+    "¿Qué significa ser un técnico en disciplinas necesarias para las fuerzas militares?"
+  ],
+  "Calidad_Institucional": [
+    "¿Cuáles son las políticas de calidad del colegio?",
+    "¿Qué objetivos de calidad tiene la institución?",
+    "¿Qué acciones se contemplan para mejorar el sistema de gestión de calidad?",
+    "¿Qué estrategias usa el colegio para evitar el plagio?",
+    "¿Cómo se promueve la satisfacción de los estudiantes y demás beneficiarios?"
+  ],
+  "Historia": [
+    "¿Cuándo fue fundado el Colegio Militar General Santander?",
+    "¿Quién fue el primer rector del colegio?",
+    "¿Qué papel tuvo el sacerdote Sady Tobón en la historia del colegio?",
+    "¿Quién logró la primera promoción de bachilleres?",
+    "¿Cuándo se aprobó la sección primaria?",
+    "¿Qué cambios estructurales se hicieron entre 2003 y 2023?",
+    "¿Qué avances tecnológicos se implementaron durante la rectoría del Sociólogo Jorge Edmundo Capacho?",
+    "¿Qué papel jugó el Ingeniero Alejandro Parra Santos en la institución?",
+    "¿Quién fue el primer exalumno en asumir la rectoría?",
+    "¿Qué importancia tuvo la cooperativa COOSAMIR en la fundación del colegio?"
+  ],
+  "Directivos_Contacto": [
+    "¿Quién es el rector actual del colegio?",
+    "¿Quién coordina la convivencia?",
+    "¿Quién es la coordinadora académica?",
+    "¿Cuál es el número de teléfono de la institución?",
+    "¿Dónde está ubicada la sede del colegio?",
+    "¿Cuál es el correo electrónico de contacto del colegio?"
+  ],
+  "Eventos_Vida_Escolar": [
+    "¿Qué eventos recientes ha realizado el colegio?",
+    "¿Qué es la emisora institucional del colegio?",
+    "¿Qué tipo de actividades culturales o deportivas realiza el colegio?",
+    "¿Dónde se puede descargar la app de la emisora del colegio?"
+  ],
+  "Preguntas_Generales": [
+    "¿Qué diferencia al Colegio Militar General Santander de otras instituciones educativas?",
+    "¿Qué autoridades educativas avalan al colegio?",
+    "¿Cuál es el enfoque social, económico y ambiental del colegio?",
+    "¿Cómo se garantiza el cumplimiento de la legislación educativa?",
+    "¿Qué competencias tecnológicas se fomentan en el personal docente?"
+  ]
+}

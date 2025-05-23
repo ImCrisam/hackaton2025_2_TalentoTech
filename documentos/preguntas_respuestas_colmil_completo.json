@@ -1,0 +1,218 @@
+{
+  "Mision_Vision_Valores": [
+    {
+      "pregunta": "¿Cuál es la misión del Colegio Militar General Santander?",
+      "respuesta": "El Colegio Militar General Santander es una institución con énfasis militar que ofrece los niveles de Preescolar, Primaria, Básica y Media Vocacional, inspirados en el lema “Patria, Superación y Orden”, con un modelo pedagógico constructivista y formación disciplinaria."
+    },
+    {
+      "pregunta": "¿Qué visión tiene la institución para el año 2024?",
+      "respuesta": "Ser reconocida por su alto nivel de formación y compromiso con la mejora continua, mediante un equipo humano competente y comprometido con la satisfacción de la comunidad educativa."
+    },
+    {
+      "pregunta": "¿Cuáles son los valores institucionales del colegio?",
+      "respuesta": "Confianza, Disciplina y Aprendizaje."
+    },
+    {
+      "pregunta": "¿Cuál es el lema del Colegio Militar General Santander?",
+      "respuesta": "\"Patria, Superación y Orden\"."
+    },
+    {
+      "pregunta": "¿Qué modelo pedagógico sigue la institución?",
+      "respuesta": "Un modelo pedagógico constructivista."
+    },
+    {
+      "pregunta": "¿Qué características tiene la formación disciplinaria ofrecida?",
+      "respuesta": "Se enfoca en el desarrollo del carácter, la responsabilidad y la convivencia armónica con un enfoque castrense."
+    },
+    {
+      "pregunta": "¿Qué se entiende por responsabilidad social institucional según el colegio?",
+      "respuesta": "Es un aspecto estratégico que abarca planes de acción en dimensiones económicas, sociales y ambientales."
+    }
+  ],
+  "Admisiones_Inscripciones": [
+    {
+      "pregunta": "¿Qué grados ofrece el colegio?",
+      "respuesta": "Preescolar (Pre-jardín, Jardín, Transición), Básica Primaria (1° a 5°), Básica Secundaria (6° a 9°) y Educación Media (10° y 11°)."
+    },
+    {
+      "pregunta": "¿Cuáles son los requisitos de inscripción?",
+      "respuesta": "1. Compra del formulario de inscripción. 2. Diligenciar formato de referencia del colegio de procedencia. 3. Solicitar el listado completo de documentos en la secretaría."
+    },
+    {
+      "pregunta": "¿Qué documentos deben entregar los aspirantes al grado 9°?",
+      "respuesta": "Dos registros civiles originales, cuatro fotos 2.5x4.5 a color con saco y corbata, dos fotocopias del documento de identidad ampliado al 150% y laminado, formulario inscripción militar y formato de compromiso, y fotocopia del informe final de logros académicos del grado octavo."
+    },
+    {
+      "pregunta": "¿Cuáles son los exámenes médicos requeridos para la inscripción?",
+      "respuesta": "Oftalmología, otorrino, audiometría, radiografía pulmonar y prueba de factor RH/tipo de sangre."
+    },
+    {
+      "pregunta": "¿Qué entrevistas se deben realizar como parte del proceso de admisión?",
+      "respuesta": "Con el Coordinador Académico, Coordinador de Convivencia y Rector."
+    },
+    {
+      "pregunta": "¿Qué pasos debe seguir una familia interesada en matricular a un estudiante?",
+      "respuesta": "Comprar el formulario, diligenciar el formato de referencia, presentar documentación y realizar entrevistas."
+    },
+    {
+      "pregunta": "¿Qué es el formato de referencia del colegio de procedencia?",
+      "respuesta": "Un documento que certifica la trayectoria académica y disciplinaria del estudiante en su colegio anterior."
+    },
+    {
+      "pregunta": "¿Qué diferencias hay entre los requisitos de ingreso para cadetes nuevos y antiguos?",
+      "respuesta": "Ninguna, los requisitos aplican para ambos casos."
+    }
+  ],
+  "Academico_Programas": [
+    {
+      "pregunta": "¿Qué enfoque tiene el programa de Preescolar?",
+      "respuesta": "Se centra en los intereses de los niños, estimulando su curiosidad y sentido de investigación mediante proyectos educativos."
+    },
+    {
+      "pregunta": "¿Cómo se estructuran los años de Primaria?",
+      "respuesta": "En el descubrimiento del entorno del niño y el desarrollo de competencias académicas, físicas y éticas."
+    },
+    {
+      "pregunta": "¿Qué tipos de programas ofrece el bachillerato?",
+      "respuesta": "Futuros militares de carrera y técnicos en disciplinas necesarias para las fuerzas militares."
+    },
+    {
+      "pregunta": "¿Cuál es el papel del SENA en la formación académica del colegio?",
+      "respuesta": "Ofrece un programa técnico en Sistemas con certificación SENA paralelo al bachillerato."
+    },
+    {
+      "pregunta": "¿Qué significa ser un técnico en disciplinas necesarias para las fuerzas militares?",
+      "respuesta": "Tener formación técnica que complemente la formación académica y responda a las necesidades de las fuerzas armadas."
+    }
+  ],
+  "Calidad_Institucional": [
+    {
+      "pregunta": "¿Cuáles son las políticas de calidad del colegio?",
+      "respuesta": "Compromiso con la eficacia, el mejoramiento continuo, el autocontrol y la comunicación asertiva."
+    },
+    {
+      "pregunta": "¿Qué objetivos de calidad tiene la institución?",
+      "respuesta": "Mejorar el sistema de gestión, preparar para educación superior, fomentar ambiente organizacional, garantizar satisfacción de partes interesadas, desarrollar competencias, cumplir la legislación y prevenir el plagio."
+    },
+    {
+      "pregunta": "¿Qué acciones se contemplan para mejorar el sistema de gestión de calidad?",
+      "respuesta": "Optimización de procesos, gestión de riesgos y formación continua del personal."
+    },
+    {
+      "pregunta": "¿Qué estrategias usa el colegio para evitar el plagio?",
+      "respuesta": "Dirigir la práctica educativa hacia la identificación, tratamiento y prevención del plagio."
+    },
+    {
+      "pregunta": "¿Cómo se promueve la satisfacción de los estudiantes y demás beneficiarios?",
+      "respuesta": "Creando ambientes propicios, suministrando recursos e insumos necesarios y atendiendo sus expectativas."
+    }
+  ],
+  "Historia": [
+    {
+      "pregunta": "¿Cuándo fue fundado el Colegio Militar General Santander?",
+      "respuesta": "En 1965."
+    },
+    {
+      "pregunta": "¿Quién fue el primer rector del colegio?",
+      "respuesta": "El Capitán Gustavo Villalobos Serpa."
+    },
+    {
+      "pregunta": "¿Qué papel tuvo el sacerdote Sady Tobón en la historia del colegio?",
+      "respuesta": "Logró la aprobación del ciclo básico de educación en 1968."
+    },
+    {
+      "pregunta": "¿Quién logró la primera promoción de bachilleres?",
+      "respuesta": "El rector Humberto Gómez Nigrinis en 1969."
+    },
+    {
+      "pregunta": "¿Cuándo se aprobó la sección primaria?",
+      "respuesta": "En 1974, bajo la rectoría de Manuel Enrique Ortega."
+    },
+    {
+      "pregunta": "¿Qué cambios estructurales se hicieron entre 2003 y 2023?",
+      "respuesta": "Unificación de jornadas, reestructuración del pensum, fortalecimiento académico, deportivo y cultural."
+    },
+    {
+      "pregunta": "¿Qué avances tecnológicos se implementaron durante la rectoría del Sociólogo Jorge Edmundo Capacho?",
+      "respuesta": "Laboratorio de informática, red de audiovisuales, PEI con actividades lúdicas, artísticas y culturales."
+    },
+    {
+      "pregunta": "¿Qué papel jugó el Ingeniero Alejandro Parra Santos en la institución?",
+      "respuesta": "Reorganizó la jornada académica y fortaleció competencias institucionales desde 2003."
+    },
+    {
+      "pregunta": "¿Quién fue el primer exalumno en asumir la rectoría?",
+      "respuesta": "El Mayor William Parada Gómez en 2021."
+    },
+    {
+      "pregunta": "¿Qué importancia tuvo la cooperativa COOSAMIR en la fundación del colegio?",
+      "respuesta": "Fue fundada por 24 militares retirados pertenecientes a COOSAMIR."
+    }
+  ],
+  "Directivos_Contacto": [
+    {
+      "pregunta": "¿Quién es el rector actual del colegio?",
+      "respuesta": "CT. (RA) Pedro Alexander Gómez Peñaloza."
+    },
+    {
+      "pregunta": "¿Quién coordina la convivencia?",
+      "respuesta": "CR. (RA) Carlos Mario De León Peña."
+    },
+    {
+      "pregunta": "¿Quién es la coordinadora académica?",
+      "respuesta": "Gloria Arleth Gómez Fuentes."
+    },
+    {
+      "pregunta": "¿Cuál es el número de teléfono de la institución?",
+      "respuesta": "(607) 7008460 Ext - 2006"
+    },
+    {
+      "pregunta": "¿Dónde está ubicada la sede del colegio?",
+      "respuesta": "Diagonal 32 #30a-05, Salida a Pamplona, Bucaramanga."
+    },
+    {
+      "pregunta": "¿Cuál es el correo electrónico de contacto del colegio?",
+      "respuesta": "secretaria@colmil.com.co"
+    }
+  ],
+  "Eventos_Vida_Escolar": [
+    {
+      "pregunta": "¿Qué eventos recientes ha realizado el colegio?",
+      "respuesta": "Aniversario 59°, Ascenso de Brigadieres, Día del Niño, Ejercicios de Campo."
+    },
+    {
+      "pregunta": "¿Qué es la emisora institucional del colegio?",
+      "respuesta": "Una emisora educativa para comunicación y actividades escolares."
+    },
+    {
+      "pregunta": "¿Qué tipo de actividades culturales o deportivas realiza el colegio?",
+      "respuesta": "Eventos artísticos, culturales, actividades deportivas y encuentros con exalumnos."
+    },
+    {
+      "pregunta": "¿Dónde se puede descargar la app de la emisora del colegio?",
+      "respuesta": "En Google Play Store, con el nombre \"Radio Colmil\"."
+    }
+  ],
+  "Preguntas_Generales": [
+    {
+      "pregunta": "¿Qué diferencia al Colegio Militar General Santander de otras instituciones educativas?",
+      "respuesta": "Su enfoque militar, formación en valores, disciplina y la integración del SENA en el bachillerato."
+    },
+    {
+      "pregunta": "¿Qué autoridades educativas avalan al colegio?",
+      "respuesta": "Ministerio de Educación Nacional, Ministerio de Defensa y el Batallón de Infantería Nro. 14."
+    },
+    {
+      "pregunta": "¿Cuál es el enfoque social, económico y ambiental del colegio?",
+      "respuesta": "Integrar la responsabilidad social institucional en planes estratégicos en estas tres dimensiones."
+    },
+    {
+      "pregunta": "¿Cómo se garantiza el cumplimiento de la legislación educativa?",
+      "respuesta": "Mediante mecanismos de verificación y actualización normativa constante."
+    },
+    {
+      "pregunta": "¿Qué competencias tecnológicas se fomentan en el personal docente?",
+      "respuesta": "Pedagógicas, tecnológicas y de gestión, para garantizar calidad en los servicios educativos."
+    }
+  ]
+}
